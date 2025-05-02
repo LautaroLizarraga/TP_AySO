@@ -1,0 +1,111 @@
+apt install bzip2
+sudo su
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -b 4096 -C "lizarragalautaro20@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+[200~ssh-keygen -t ed25519 -C "lizarragalautaro20@gmail.com"
+~ssh-keygen -t ed25519 -C "lizarragalautaro20@gmail.com"
+CLEAR
+clear
+cat ~/.ssh/id_ed25519.pub
+cat $HOME/.ssh/*.pub
+CLEAR
+clear
+/home/Lautaro/
+/home/vboxuser/
+cd
+pwd
+cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t ed25519 -C "lizarragalautaro20@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+clear
+cd
+mdkir repogit
+mkdir repogit
+$HOME/repogit/
+cd repogit
+git clone git@github.com:LautaroLizarraga/TP_AySO.git
+sudo apt install git
+git clone git@github.com:LautaroLizarraga/TP_AySO.git
+cd T TP_AySO/
+cd TP_AySO/
+pwd
+clear
+ls -l
+cat /etc/os-release
+man grep
+--ignore-case
+HOME_URL --ignore-case
+grep HOME_URL /etc/os-release --ignore-case
+man grep
+apropos case
+man grep apropos case
+clear
+grep -i home_url /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i HOME_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)">datos_usuario.txt
+ls -l
+git add.
+git add .
+git config --global user.email "lizarragalautaro20@gmail.com"
+git config --global user.name "Lautaro"
+git commit -m "feat: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+git pull
+git config pull.rebase false 
+git config --global pull.rebase false
+clear
+git push
+git pull --rebase origin main
+git push 
+git push origin main
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep
+grep tail -n 
+ls -l
+cd $HOME
+pwd
+cd repogit 
+pwd
+cd TP_AySO/
+ls -l
+" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+
+clear
+ls -l
+cd repogit 
+cd TP_AySO/
+ls -l
+grep "Intel I5" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "" /proc/cpuinfo | head -n1 >>
+datos_usuarios.txt
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuarios.txt
+git add .
+clear
+git commit -m “feat: Añadiendo información de CPU”
+git commit -M "feat: Aniadiendo informacion de CPU"
+clear
+git commit -m "Feat: Aniadiendo informacion del CPU"
+git push
+ls -l
+cat <<EOF>> README.md
+Alumno; Lautaro Lizarraga
+Division; 315 Turno; Noche
+EOF
+
+git add README.md datos_usuarios.txt
+git commit -m "ADD: Aniadiendo Readme y datos de usuarios"
+git push
+history -a
